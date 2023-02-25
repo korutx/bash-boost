@@ -34,5 +34,6 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y bats
           echo $(bats --version)
+          export BASH_BOOST=$(pwd)
           bats --recursive tests
 

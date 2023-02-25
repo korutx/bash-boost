@@ -13,4 +13,12 @@ Some of the scripts included in Bash Boost are:
 
 All scripts in the Bash Boost repository are well-documented and designed to be easy to understand and modify. They are also free to use and distribute under the MIT License, so you can customize them to meet your specific needs and share them with others.
 
+## Prerequisites
+
+The only prerequisite for using the Bash Boost scripts is a Unix-like operating system with Bash installed. If you want to run the tests for the scripts, you will need to have Bats installed as well.
+
+## Installation
+
+To install Bats, you can follow the instructions on the Bats project page at https://github.com/bats-core/bats-core. Once Bats is installed, you can run the tests for the Bash Boost scripts by running the bats command on any *_test.bats file located in the same directory as the script being tested.
+
 If you're looking for a way to boost your Bash skills and optimize your command line workflow, Bash Boost is the perfect resource to help you get started.

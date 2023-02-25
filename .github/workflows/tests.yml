@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Tests
 
 # Controls when the workflow will run
 on:
@@ -30,9 +30,9 @@ jobs:
       #   run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
-      - name: Install bats
+      - name: Run tests
         run: |
-          sudo apt-get update && sudo apt-get install -y bats
+          sudo apt-get update -q && sudo apt-get install -yq bats
           echo $(bats --version)
           export BASH_BOOST=$(pwd)
           bats --recursive tests

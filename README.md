@@ -1,5 +1,8 @@
 # Bash Boost
 
+![example workflow](https://github.com/korutx/bash-boost/actions/workflows/tests.yml/badge.svg)
+
+
 Bash Boost is a collection of Bash scripts designed to help streamline your workflow and increase productivity. Whether you're a developer, system administrator, or just a frequent user of the command line, these scripts can save you time and effort by automating common tasks and simplifying complex operations.
 
 Some of the scripts included in Bash Boost are:
